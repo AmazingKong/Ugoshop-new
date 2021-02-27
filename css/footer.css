@@ -1,0 +1,176 @@
+/* 顶部 */
+
+.footer {
+    margin-top: 50px;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    background: none;
+    font-family: "\5FAE\8F6F\96C5\9ED1", tahoma, arial, "\u5b8b\u4f53", sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    border-top: 1px solid #e3e3e3;
+    font-size: 12px;
+}
+
+
+/* 图片 */
+
+.foot-ad {
+    height: 100px;
+    background-color: #f6f6f6;
+}
+
+.foot-nav-ol {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 26px 0 26px 75px;
+}
+
+.flistdl {
+    float: left;
+    width: 95px;
+    height: 114px;
+    padding-left: 42px;
+    border-right: 1px dotted #e6e6e6;
+    text-align: left;
+}
+
+.nob {
+    border: 0;
+}
+
+.flistdl2 {
+    margin-left: 20px;
+    float: left;
+}
+
+.flistdl dt {
+    color: #333;
+    font-size: 16px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.flistdl dd {
+    height: 22px;
+    line-height: 22px;
+}
+
+.flistdl dd a:hover {
+    color: #f70800;
+}
+
+.flistdl dd a {
+    color: #666;
+}
+
+.footer .flistdl2 dd {
+    margin: 20px 0 0 30px;
+}
+
+.l {
+    float: left;
+}
+
+.footer .flistdl2 dt {
+    width: 80px;
+    text-align: center;
+}
+
+.footer .flistdl2 dt em {
+    color: #999;
+}
+
+.footer .flistdl2 dt i {
+    color: #222;
+}
+
+
+/* 底部信息栏 */
+
+.footerinfo {
+    color: #555555;
+    font-size: 12px;
+    padding-top: 22px;
+    padding-bottom: 80px;
+    line-height: 22px;
+    text-align: center;
+    border-top: 1px solid #999999;
+}
+
+
+/* 底部导航 */
+
+.footer-list {
+    height: 26px;
+    color: #555;
+}
+
+.footer-list a {
+    color: #555;
+    padding: 0 8px;
+    font-size: 13px;
+}
+
+
+/* 友情链接 */
+
+.dlphh {
+    line-height: 22px;
+    height: 22px;
+    overflow: hidden;
+    text-align: left;
+    width: 900px;
+}
+
+.l {
+    float: left;
+}
+
+.dlphh em {
+    padding-right: 8px;
+    color: #666;
+}
+
+.dlphh a {
+    padding-right: 8px;
+    color: #555;
+}
+
+
+/* 返回箭头 */
+
+.r_button {
+    width: 50px;
+    height: 22px;
+    line-height: 22px;
+    margin-right: 40px;
+    cursor: pointer;
+    color: #555;
+}
+
+.r {
+    float: right;
+}
+
+
+/* 其他 */
+
+.copyright {
+    color: #555;
+    line-height: 22px;
+}
+
+
+/* .comname {
+    width: 800px;
+} */
+
+.footer-list {
+    height: 26px;
+}
+
+.footer-list a {
+    color: #555;
+    padding: 0 8px;
+    font-size: 13px;
+}

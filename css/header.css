@@ -1,0 +1,7 @@
+/* 顶部：警告栏 */
+
+.notice {
+    background: url(../img/icons.png) no-repeat -98px -196px;
+    color: #666666;
+    padding-left: 16px;
+}

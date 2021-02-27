@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品列表页</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/list.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/pagination.css">
+    <script src="../script/list_module.js" type="module"></script>
+</head>
+
+<body>
+    <!-- 版心 -->
+    <div class="wrapper">
+        <!-- 列表标题 -->
+        <div class="h-img">
+            <img src="../img/icon_map_208.png" alt="">
+            <h1>烹饪厨具</h1>
+        </div>
+        <!-- 两个按钮 -->
+        <div class="p2">
+            <p class="p_btn">
+                <span>价格排序：</span>
+                <button>默认</button>
+                <button>升序</button>
+                <a href="javascript:;">今日推荐</a>
+                <a href="javascript:;">销量</a>
+                <a href="javascript:;">上架时间</a>
+                <a href="javascript:;">特惠</a>
+            </p>
+            <p class="p_ckb">
+                <!-- <input type="checkbox"><span>惠买自营</span> -->
+                <input type="checkbox" class="ckb"><span>入驻商家</span>
+            </p>
+        </div>
+        <!-- 列表页的结构 -->
+        <div class="list">
+            <ul>
+                <!-- 渲染区域 -->
+            </ul>
+        </div>
+        <!-- 加载分页的结构 ：page-->
+        <!-- 样式在pagination.css -->
+        <div class="pagelist">
+            <div class="m-style page">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer顶部 -->
+    <div class="footer">
+        <!-- 图片 版心 -->
+        <div class="foot-ad wrapper">
+            <img alt="" src="../img/footer_ad.jpg" width="1000" height="102">
+        </div>
+        <!-- 足部导航 -->
+        <div class="wrapper">
+            <div class="foot-nav-ol clear">
+                <dl class="flistdl">
+                    <dt>新手上路</dt>
+                    <dd><a href="http://10.31.165.37/ugoshop%20project/src/html/registry.html">新用户注册</a></dd>
+                    <dd><a href="javascript:;">忘记密码</a></dd>
+                    <dd><a href="javascript:;">购物流程</a></dd>
+                </dl>
+                <dl class="flistdl">
+                    <dt>支付配送</dt>
+                    <dd><a href="javascript:;">货到付款</a></dd>
+                    <dd><a href="javascript:;">支付宝</a></dd>
+                    <dd><a href="javascript:;">配送方式</a></dd>
+                </dl>
+                <dl class="flistdl">
+                    <dt>会员服务</dt>
+                    <dd><a href="javascript:;">交易规则</a></dd>
+                    <dd><a href="javascript:;">会员制度</a></dd>
+                    <dd><a href="javascript:;">积分介绍</a></dd>
+                    <dd><a href="javascript:;">退换货原则</a></dd>
+                </dl>
+                <dl class="flistdl nob">
+                    <dt>关于惠买</dt>
+                    <dd><a href="javascript:;">企业介绍</a></dd>
+                    <dd><a href="javascript:;">联系我们</a></dd>
+                    <dd><a href="javascript:;">招商专区</a></dd>
+                </dl>
+                <dl class="flistdl2 clear">
+                    <dt class="l">
+                        <a href="javascript:;">
+                            <img alt="" src="../img/foot_ewm.jpg" width="80" height="80">
+                            <i>手机惠买</i>
+                            <em>（优购物）</em>
+                        </a>
+                    </dt>
+                    <dd class="l">
+                        <img alt="" src="../img/foot_dh.jpg" width="149" height="38">
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!-- footer底部信息栏 -->
+    <div class="footerinfo wrapper">
+        <!-- 导航 -->
+        <p class="footer-list"><a target="_blank" href="http://10.31.165.37/ugoshop%20project/src/html/index1.html">首页</a> |
+            <a href="javascript:;">关于惠买</a> |
+            <a href="javascript:;">优购物</a> |
+            <a href="javascript:;">联系我们</a> |
+            <a href="javascript:;">招贤纳士</a> |
+            <a href="javascript:;">招商专区</a> |
+            <a href="javascript:;">供应商入口</a> |
+            <a href="javascript:;">友情链接</a> |
+            <a href="javascript:;">网站地图</a> |
+            <a href="javascript:;">资讯中心</a> |
+            <a href="javascript:;">评论</a> |
+            <a href="javascript:;">图片</a>
+        </p>
+        <!-- 友情链接 -->
+        <div class="yqlink clearfix">
+            <p class="dlphh l" id="friend_link">
+                <em style="padding-left: 10px;">友情链接：</em>
+                <a href="javascript:;">配眼镜</a>
+                <a href="http://www.zocai.com/">佐卡伊珠宝网</a>
+                <a href="http://www.wbiao.cn/">腕表名表</a>
+                <a href="http://www.kaitao.cn/">如何开网店</a>
+                <a href="http://www.sodao.com">免费试用</a>
+                <a href="http://www.crd.cn/">钻戒网</a>
+            </p>
+            <div class="r_button r">▼</div>
+        </div>
+        <!-- 其他 -->
+        <p class="copyright comname">优品_惠买（优购物）全球优品特卖网站 专属于千万女性的优品特卖网站,优品_惠买（优购物）电视购物官方网站,100%正品保证 支持货到付款.</p>
+        <p class="copyright">Copyright©2007-2019 &nbsp; 公司名称:北京惠买网络科技有限公司 &nbsp; 公司地址:北京市北京经济技术开发区同济南路19号7幢2层C区 服务热线：400-707-0707</p>
+        <p class="footer-list copyright"> 统一社会信用代码:91110302339739621C &nbsp; ICP备案号:
+            <a href="http://beian.miit.gov.cn/" target="_blank">京ICP备15039150号-1</a> &nbsp; 食品流通许可证编号:JY11131010332635 &nbsp;
+            <a href="/ugoshop.html" target="_blank">营业执照</a>
+            <a href="http://img.ugoshop.com/images/wangwenzheng.jpg" target="_blank">京网文(2017)10902-1271</a>
+        </p>
+        <p>
+            <a href="http://img.ugoshop.com/images/ugo_edi.png" target="_blank" style="color:#222;">增值业务经营许可证：京B2-20181380 </a>
+        </p>
+        <p>
+        </p>
+        <div style="margin:0 auto;text-align:center;">
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11030102010023" style="display:inline-block;text-decoration:none;height:22px;line-height:22px;">
+                <img src="../img/bei.png" style="float:left;">
+                <p style="float:left;margin: 0px 0px 0px 5px; color:#555;">京公网安备 11030102010023号</p>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!-- 
+    列表的三大功能
+    1.渲染 √
+        - 需要商品的数据 - 后端接口地址 
+        http://10.31.165.37/JS2012/projectname/php/list.php
+        - 利用ajax获取数据进行渲染。
+        - 将列表页面的sid传给详情页 - 地址栏传输
+    2.排序
+    3.分页
+ -->

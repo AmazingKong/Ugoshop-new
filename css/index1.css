@@ -1,0 +1,17 @@
+body {
+    background: #f2f2f2;
+}
+
+
+/* 大图 */
+
+.big-pic {
+    width: 100%;
+    height: 340px;
+}
+
+
+/* .big-pic img {
+    width: 1920px;
+    height: 340px;
+} */

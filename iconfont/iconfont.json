@@ -1,0 +1,58 @@
+{
+  "id": "2360598",
+  "name": "xiaxia",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1527833",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "14113878",
+      "name": "爱心",
+      "font_class": "aixin",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "5809234",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "5809239",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "400298",
+      "name": "解锁",
+      "font_class": "htmal5icon33",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "18165279",
+      "name": "锁,密码,开锁,解锁",
+      "font_class": "unlock",
+      "unicode": "e882",
+      "unicode_decimal": 59522
+    },
+    {
+      "icon_id": "19449558",
+      "name": "人",
+      "font_class": "ren",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    }
+  ]
+}

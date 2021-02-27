@@ -1,0 +1,86 @@
+@charset "utf-8";
+html,
+body,
+ol,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+fieldset,
+legend,
+input,
+textarea,
+select {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, "微软雅黑";
+    font-style: normal;
+    color: #333333;
+    background: #efefef;
+}
+
+
+/* 版心 */
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    background: pink;
+}
+
+
+/* 清除样式 */
+
+ul,
+ol,
+dl,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 标签清除样式 */
+
+em,
+b,
+i,
+strong {
+    font-style: normal;
+}
+
+
+/* 清除浮动 */
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+input {
+    outline: none;
+    border: 0;
+}

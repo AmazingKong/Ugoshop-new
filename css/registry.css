@@ -1,0 +1,237 @@
+body {
+    background: white!important;
+}
+
+
+/* 头部页眉 */
+
+.yemei {
+    width: 100%;
+    background: #EFEFEF;
+}
+
+.ym-right {
+    position: relative;
+    width: 70px;
+    float: right;
+    height: 28px;
+    line-height: 28px;
+}
+
+.ym-right a {
+    text-align: center;
+    color: #656565;
+    font-size: 12px;
+}
+
+.ym-right a:hover {
+    color: #f70800;
+}
+
+.code {
+    position: absolute;
+    padding: 5px;
+    width: 100px;
+    height: 130px;
+    text-align: center;
+    border: 1px solid gray;
+    background: #fff;
+    top: 28px;
+    left: 0;
+    z-index: 888;
+    display: none;
+}
+
+.code p {
+    color: #f70800;
+}
+
+.ym-right:hover .code {
+    display: block;
+}
+
+
+/* 广告语 */
+
+.logo {
+    height: 80px;
+    padding-top: 30px;
+}
+
+.logo-img a,
+.logo-img span {
+    display: inline-block;
+    height: 57px;
+    overflow: hidden;
+}
+
+.logo-img a {
+    width: 185px;
+    background: url(../img/welreg_02.gif)0 0 no-repeat;
+    margin-right: -10px;
+}
+
+.logo-img span {
+    width: 168px;
+    background: url(../img/welreg_01.gif) 0 0 no-repeat;
+}
+
+
+/* 登录跳转 */
+
+.logo b {
+    font-weight: normal;
+    font-size: 12px;
+    color: #525252;
+    float: right;
+    margin-top: -20px;
+}
+
+.logo b a {
+    color: #0089cf;
+}
+
+
+/* 左边二维码图 */
+
+.EWM {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin: 0 0 0 -628px;
+}
+
+
+/* 注册页面导航栏 */
+
+.regnav,
+fieldset {
+    font: 12px '宋体';
+}
+
+.regnav {
+    width: 972px;
+    height: 42px;
+    margin: 0 auto;
+}
+
+
+/* 左边提示 */
+
+.regnav ul li:nth-child(1) {
+    display: block;
+    float: left;
+    margin-right: 2px;
+    width: 225px;
+    height: 42px;
+    background: #ff8400;
+    cursor: pointer;
+    line-height: 42px;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+}
+
+.regnav ul li span {
+    background: url(../img/welreg_01.gif) 0 -233px no-repeat;
+    height: 16px;
+    padding-left: 20px;
+}
+
+
+/* 右边提示 */
+
+.regnav ul li:nth-child(2) {
+    float: right;
+    line-height: 42px;
+    /* margin-top: 15px; */
+}
+
+.regnav_tips em {
+    /* font-size: 13px; */
+    color: #eb0007;
+}
+
+.regnav_tips .cg {
+    color: #0089CF;
+}
+
+
+/* 表单内样式 */
+
+form {
+    margin-left: 120px;
+    padding-top: 60px;
+}
+
+p {
+    position: relative;
+}
+
+
+/* 字体 */
+
+p span {
+    position: absolute;
+    right: 430px;
+    top: 16px;
+    font-size: 22px !important;
+    color: #ccc;
+}
+
+
+/* 提示框样式 */
+
+fieldset label {
+    text-align: right;
+    width: 187px;
+    padding-right: 15px;
+    height: 37px;
+    line-height: 37px;
+    color: #666666;
+}
+
+
+/* input样式 */
+
+.regk {
+    width: 314px;
+    height: 25px;
+    line-height: 25px;
+    padding: 5px 25px 5px 10px;
+    border: 1px solid #a2a2a2;
+    margin: 10px 0;
+}
+
+
+/* 提交按钮 */
+
+.tj {
+    width: 120px;
+    height: 32px;
+    font-size: 14px;
+    color: #fff;
+    margin: 0 0 30px 74px;
+    background: #e10303;
+}
+
+
+/* 温馨提示 */
+
+.warmtips {
+    width: 348px;
+    margin-left: 194px;
+}
+
+.warmtips i {
+    color: #000;
+    line-height: 20px;
+}
+
+.warmtips em {
+    display: block;
+    color: #666;
+    line-height: 23px;
+}
